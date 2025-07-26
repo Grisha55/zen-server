@@ -26,5 +26,13 @@
     "email": "grishavinyar@icloud.com",
     "connection": "whatsapp",
     "policy": true
+  },
+  {
+    "timestamp": "2025-07-26T10:58:32.251Z",
+    "name": "Григорий Виняр",
+    "tel": "8 (919) 624-14-75",
+    "email": "grishavinyar64@gmail.com",
+    "connection": "telegram",
+    "policy": true
   }
 ]
