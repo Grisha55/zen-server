@@ -1,0 +1,30 @@
+[
+  {
+    "timestamp": "2025-07-26T00:33:46.739Z",
+    "name": "Тест",
+    "tel": "1234567890",
+    "policy": true
+  },
+  {
+    "timestamp": "2025-07-26T00:41:09.398Z",
+    "name": "Тест",
+    "tel": "1234567890",
+    "policy": true
+  },
+  {
+    "timestamp": "2025-07-26T10:33:21.698Z",
+    "name": "Yoga",
+    "tel": "8 (919) 624-14-75",
+    "email": "grishavinyar64@gmail.com",
+    "connection": "telegram",
+    "policy": true
+  },
+  {
+    "timestamp": "2025-07-26T10:50:41.203Z",
+    "name": "Григорий",
+    "tel": "8 (919) 624-14-75",
+    "email": "grishavinyar@icloud.com",
+    "connection": "whatsapp",
+    "policy": true
+  }
+]
