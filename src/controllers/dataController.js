@@ -1,5 +1,13 @@
 import { DataModel } from '../models/dataModel.js';
 
+/**
+ * @function handlePostRequest
+ * @description Обрабатывает POST-запрос для сохранения данных формы
+ * @param {http.IncomingMessage} req
+ * @param {http.ServerRespose} res
+ * @returns {Promise<void>}
+ */
+
 export const handlePostRequest = async (req, res) => {
   let body = '';
   
@@ -12,11 +20,10 @@ export const handlePostRequest = async (req, res) => {
       
       allData.push({
         timestamp: new Date().toISOString(),
-        ...userData.userData
+        ...userData
       });
 
       DataModel.saveData(allData);
-      
       res.writeHead(200, { 'Content-Type': 'application/json' });
       res.end(JSON.stringify({ success: true }));
     } catch (error) {
